@@ -3,9 +3,19 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "BinarySearchTree">
+      <FileRef
+         location = "group:BinarySearchTree/BinarySearchTree.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "BinarySearch">
       <FileRef
          location = "group:BinarySearch/BinarySearch.playground">
+      </FileRef>
+      <FileRef
+         location = "group:BinarySearch/BinarySearch.swift">
       </FileRef>
    </Group>
 </Workspace>

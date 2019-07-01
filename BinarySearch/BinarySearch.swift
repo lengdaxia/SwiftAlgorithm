@@ -1,6 +1,10 @@
-import UIKit
-
-//: Binary Search
+//
+//  BinarySearch.swift
+//  
+//
+//  Created by 大力 on 2019/7/1.
+//
+import Foundation
 
 func binarySearch<T: Comparable>(_ a: [T], key: T, range:Range<Int>) -> Int? {
     if range.lowerBound >= range.upperBound {
@@ -17,7 +21,3 @@ func binarySearch<T: Comparable>(_ a: [T], key: T, range:Range<Int>) -> Int? {
         }
     }
 }
-
-let numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67]
-
-binarySearch(numbers, key: 43, range: 0..<numbers.count)
