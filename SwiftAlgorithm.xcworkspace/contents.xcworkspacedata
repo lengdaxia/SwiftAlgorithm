@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "MergeSort">
+      <FileRef
+         location = "group:MergeSort/MyPlayground.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "BinarySearchTree">
       <FileRef
          location = "group:BinarySearchTree/BinarySearchTree.playground">
