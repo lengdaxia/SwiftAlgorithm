@@ -3,6 +3,70 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "MachineLearing">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Mathematics">
+   </Group>
+   <Group
+      location = "container:"
+      name = "MisCellaneous">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Compression">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Sorting">
+   </Group>
+   <Group
+      location = "container:"
+      name = "StringSearching">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Searching">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Puzzles">
+   </Group>
+   <Group
+      location = "group:DataStructures"
+      name = "DataStructures">
+      <FileRef
+         location = "group:/Users/mac/Documents/SwiftAlgorithm/DataStructures/VariationsOnArrays.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Queues.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Lists.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Trees.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Hashing.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Sets.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Graphs.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Tree">
+      <FileRef
+         location = "group:Tree/Tree.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "MergeSort">
       <FileRef
          location = "group:MergeSort/MyPlayground.playground">

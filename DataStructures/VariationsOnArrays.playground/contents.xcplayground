@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='__Init'/>
+        <page name='Array2D'/>
+        <page name='BitSet'/>
+        <page name='FixedSizeArray'/>
+        <page name='OrderedArray'/>
+    </pages>
+</playground>
