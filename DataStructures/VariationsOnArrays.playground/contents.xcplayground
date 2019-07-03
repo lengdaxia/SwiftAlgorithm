@@ -6,5 +6,6 @@
         <page name='BitSet'/>
         <page name='FixedSizeArray'/>
         <page name='OrderedArray'/>
+        <page name='RootishArrayStack'/>
     </pages>
 </playground>
