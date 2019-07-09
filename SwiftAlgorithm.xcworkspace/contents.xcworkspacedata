@@ -60,13 +60,6 @@
    </Group>
    <Group
       location = "container:"
-      name = "Tree">
-      <FileRef
-         location = "group:Tree/Tree.playground">
-      </FileRef>
-   </Group>
-   <Group
-      location = "container:"
       name = "MergeSort">
       <FileRef
          location = "group:MergeSort/MyPlayground.playground">

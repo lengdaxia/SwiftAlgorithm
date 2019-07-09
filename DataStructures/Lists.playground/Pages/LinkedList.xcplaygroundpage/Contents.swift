@@ -151,7 +151,7 @@ public class LinkedList<T> {
     
     
     public func filter(predicate: (T) -> Bool) -> LinkedList<T> {
-        var result = LinkedList<T>()
+        let result = LinkedList<T>()
         var node = head
         
         while node != nil {
