@@ -1,3 +1,4 @@
+//: [Previous](@previous)
 import UIKit
 
 public class BinartSearchTree<T: Comparable> {
@@ -50,7 +51,7 @@ public class BinartSearchTree<T: Comparable> {
     public var count: Int {
         return (left?.count ?? 0) + 1 + (right?.count ?? 0)
     }
-
+    
     public func insert(value: T) {
         if value < self.value {
             if let left = left {
@@ -93,7 +94,7 @@ public class BinartSearchTree<T: Comparable> {
         return nil
     }
     
-//    travlesal
+    //    travlesal
     
     public func travelseInOrder(process: (T) -> Void) {
         left?.travelseInOrder(process: process)
@@ -129,9 +130,9 @@ public class BinartSearchTree<T: Comparable> {
         return map{ $0 }
     }
     
-
     
-//    min and max
+    
+    //    min and max
     public func minimum() -> BinartSearchTree {
         var node = self
         while let next = node.left {
@@ -158,7 +159,7 @@ public class BinartSearchTree<T: Comparable> {
         }
         node?.parent = parent
     }
-//    remove
+    //    remove
     @discardableResult public func remove() -> BinartSearchTree? {
         let replacement: BinartSearchTree?
         
@@ -178,7 +179,7 @@ public class BinartSearchTree<T: Comparable> {
         left?.parent = replacement
         reconnectParentTo(node: replacement)
         
-//        删除当前节点
+        //        删除当前节点
         parent = nil
         left = nil
         right = nil
@@ -256,3 +257,5 @@ tree2.travelsePostOrder { (value) in
 }
 
 tree2.toArray()
+
+//: [Next](@next)

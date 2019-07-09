@@ -2,38 +2,6 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:"
-      name = "MachineLearing">
-   </Group>
-   <Group
-      location = "container:"
-      name = "Mathematics">
-   </Group>
-   <Group
-      location = "container:"
-      name = "MisCellaneous">
-   </Group>
-   <Group
-      location = "container:"
-      name = "Compression">
-   </Group>
-   <Group
-      location = "container:"
-      name = "Sorting">
-   </Group>
-   <Group
-      location = "container:"
-      name = "StringSearching">
-   </Group>
-   <Group
-      location = "container:"
-      name = "Searching">
-   </Group>
-   <Group
-      location = "container:"
-      name = "Puzzles">
-   </Group>
-   <Group
       location = "group:DataStructures"
       name = "DataStructures">
       <FileRef
@@ -63,13 +31,6 @@
       name = "MergeSort">
       <FileRef
          location = "group:MergeSort/MyPlayground.playground">
-      </FileRef>
-   </Group>
-   <Group
-      location = "container:"
-      name = "BinarySearchTree">
-      <FileRef
-         location = "group:BinarySearchTree/BinarySearchTree.playground">
       </FileRef>
    </Group>
    <Group

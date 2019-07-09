@@ -3,5 +3,7 @@
     <pages>
         <page name='tree'/>
         <page name='BinaryTree'/>
+        <page name='BinarySearchTree'/>
+        <page name='RedBlackTree'/>
     </pages>
 </playground>
