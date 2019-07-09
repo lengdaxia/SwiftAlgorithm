@@ -37,7 +37,7 @@
       location = "group:DataStructures"
       name = "DataStructures">
       <FileRef
-         location = "group:/Users/mac/Documents/SwiftAlgorithm/DataStructures/VariationsOnArrays.playground">
+         location = "group:VariationsOnArrays.playground">
       </FileRef>
       <FileRef
          location = "group:Queues.playground">

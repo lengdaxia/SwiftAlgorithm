@@ -6,6 +6,7 @@ import Foundation
 import Darwin
 
 public struct RootishArrayStack<T> {
+    
     fileprivate var blocks = [Array<T?>]()
     fileprivate var internalCount = 0
     
